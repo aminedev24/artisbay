@@ -1,0 +1,126 @@
+@media screen and (min-width:320px) and (max-width:842px) {
+
+    .header {
+        font-size: 35px;
+        letter-spacing: normal;
+    }
+
+    .icon {
+        display: block;
+        
+    }
+    h3.sub {
+        font-size:25px;
+    }
+
+    .content h4 {
+        font-size: 25px;
+    }
+
+    .empty-overlay {
+        display: none;
+    }
+
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-container .widget-container {
+        margin: 25px;
+    }
+
+    .footer , .first-wrap , .second-wrap {
+        flex-direction: column;
+    }   
+
+    .about-us , .about-us p {
+        width: unset;
+    }
+
+    .about-us {
+        align-items: baseline;
+    }
+
+    .first-wrap , .second-wrap {
+        padding: 1px 40px;
+        width: unset;
+    }
+    .about-us  h4{
+        border-bottom: solid;
+        margin-right: unset !important;
+    }
+
+    .navbar {
+        position: absolute;
+        float: left;
+        display: none;
+        flex-direction:column;
+        background-color: #fff;
+        position: fixed;
+        width: 30%;
+        height: 68%;
+        z-index: 1;
+        justify-content: center;
+        top: 0;
+        padding-left: 15px;
+    }
+
+    .navbar a {
+    display: block;
+    padding: 5px;
+    }
+
+    .icon {
+        float: right;
+    }
+
+    .about-container h3 {
+        margin: 15px;
+    }
+
+    /*about-us*/
+
+    .background-wrap , .image-content , .explain, .policy-list, .policy-content {
+        width: unset;
+    }
+
+    .image-wrap img {
+        display: none;
+    }
+
+    .policy {
+        flex-direction: column;
+        width:90%;
+    }
+
+    .policy-list {
+        margin: 0;
+        width: 90%;
+    }
+
+    .container h1 {
+        font-size:60px;
+    }
+}
+
+@media screen and (max-width: 962px){
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+         
+    }
+
+    .contents, .about-container {
+        width: 100%;
+    }
+
+    .content .fa {
+        margin: 15px;
+        display: block;
+        font-size: 22px;
+        padding: 30px;
+        font-weight: 900;
+    }
+}
